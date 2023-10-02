@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/MemberPanel/style.css" />
+    <link rel="stylesheet" href="~/MemberPanel/script.js" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+
+
+  </head>
+  <body>
+    <div id="sidebar">
+      <div id="close_button">
+        <i class="fa-solid fa-x"></i>
+      </div>
+      <div id="sidebar_links">
+        <div class="link">
+          <i class="fa-solid fa-house"></i>
+          <a asp-action="Index" asp-controller="Home">Ana Səhifə</a>
+        </div>
+        <div class="link">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <a asp-action="AllList" asp-controller="Products">Məhsullar</a>
+        </div>
+        <div class="link">
+          <i class="fa-solid fa-user"></i>
+          <a asp-action="Login" asp-controller="Account">Daxil ol</a>
+        </div>
+        <div class="link">
+          <i class="fa-solid fa-heart"></i>
+          <a asp-action="FavoriteList" asp-controller="Home">Favoritlər</a>
+        </div>
+        <div class="link">
+          <i class="fa-solid fa-basket-shopping"></i>
+          <a asp-action="BasketList" asp-controller="Home">Səbətə bax</a>
+        </div>
+        <div class="link">
+          <i class="fa-solid fa-phone"></i>
+          <a asp-action="Contact" asp-controller="Home">Əlaqə</a>
+        </div>
+        <div class="link">
+          <i class="fa-solid fa-circle-info"></i>
+          <a asp-action="Index" asp-controller="About">Haqqımızda</a>
+        </div>
+        <div id="categories_slider">
+          <div id="categories" class="link">
+            <i class="fa-solid fa-circle-info"></i>
+            <a href="#">Kategoriyalar</a>
+            <i id="arrow" class="fa-solid fa-arrow-down"></i>
+          </div>
+          <div id="slider">
+            <div class="link">
+              <img src="~/MemberPanel/images/icons8-bed-50.png" alt="Yataq" />
+              <a href="./yataqq.html">Yataq</a>
+            </div>
+            <div class="link">
+              <img src="~/MemberPanel/images/icons8-living-room-67.png" alt="Qonaq" />
+              <a href="./qonaq.html">Qonaq</a>
+            </div>
+            <div class="link">
+              <img src="~/MemberPanel/images/icons8-sofa-100.png" alt="Yumşaq" />
+              <a href="./divan.html">Yumşaq</a>
+            </div>
+            <div class="link">
+              <img src="~/MemberPanel/images/icons8-usaqvegenc-62.png" alt="Uşaq və gənc" />
+              <a href="./usag-genc.html">Uşaq və gənc</a>
+            </div>
+            <div class="link">
+              <img src="~/MemberPanel/images/icons8-closet-64.png" alt="Dəhliz" />
+              <a href="./dehliz.html">Dəhliz</a>
+            </div>
+            <div class="link">
+              <img src="~/MemberPanel/images/icons8-desk-64.png" alt="Masa və stullar" />
+              <a href="./masa-ve-stullar.html">Masa və stullar</a>
+            </div>
+            <div class="link">
+              <img src="~/MemberPanel/images/icons8-mattress-50.png" alt="Döşəklər" />
+              <a href="./doshekler.html">Döşəklər</a>
+            </div>
+            <div class="link">
+              <img src="~/MemberPanel/images/icons8-kitchen-64.png" alt="Mətbəx" />
+              <a asp-action="CategoryProducts" asp-controller="Product" asp-route-id="">Mətbəx</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <section class="header_container">
+        <div class="header_left">
+          <i onclick="location.href='./cart.html'" id="header_left_basket" class="fa-solid fa-basket-shopping"></i>
+
+          <i id="burger_button" class="fa-solid fa-bars"></i>
+          <div class="logo">
+            <a asp-action="Index" asp-controller="Home" asp-area=""
+              ><img
+                style="width: 200px; height: 39px"
+                src="~/MemberPanel/images/embawood_logo.png"
+                alt=""
+            /></a>
+          </div>
+
+          @await Component.InvokeAsync("ProductSearch")
+
+        </div>
+        <div class="header_right">
+          <div class="heading">
+            <ul>
+               @if (User.IsInRole("Admin") || User.IsInRole("SuperAdmin"))
+                {
+                    <i class="fa-solid fa-house"></i>
+                    <li><a asp-action="Index" asp-controller="Dashboard" asp-area="AdminPanel" class="under">Admin</a></li>
+                }
+              <i class="fa-solid fa-house"></i>
+              <li><a asp-action="Index" asp-controller="Home" class="under">Ana Səhifə</a></li>
+              <i class="fa-solid fa-bag-shopping"></i>
+              <li><a asp-action="AllList" asp-controller="Product" class="under">Məhsullar</a></li>
+              @if (!User.IsInRole("Admin") && !User.IsInRole("SuperAdmin"))
+                {
+                   <i class="fa-solid fa-phone"></i>
+                   <li><a asp-action="Contact" asp-controller="Home" class="under">Əlaqə</a></li> 
+                }
+              <i class="fa-solid fa-heart"></i>
+              <li><a asp-action="FavoriteList" asp-controller="Home" class="under">Favoritlər</a></li>
+                @if (!User.Identity.IsAuthenticated)
+                {
+                  <i class="fa-solid fa-user"></i>
+                  <li><a asp-action="Login" asp-controller="Account" class="under">Daxil ol</a></li>  
+                }
+                else
+                {
+                 <i class="fa-solid fa-user"></i>
+                 <li><a asp-action="LogOut" asp-controller="Account" class="under">Cixis Et</a></li>      
+                }
+              <i class="fa-solid fa-basket-shopping"></i>
+              <li><a asp-action="BasketList" asp-controller="Home" class="under">Səbət</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </header>
+    @await Component.InvokeAsync("Categories")
+
+    @RenderBody()
+
+
+    <footer>
+      <div class="footer_container">
+        <div class="footer0">
+          <img  style="width: 200px; height: 39px;" src="~/MemberPanel/images/embawood_logo.png" alt="" />
+        </div>
+        <div class="footer1">
+          Əlaqə vasitələrimiz :
+         <div class="socialmediaa">
+            <ul>
+                <li>
+                  <a href="https://www.facebook.com/embawood/">
+                    <i class="fab fa-facebook-f icon"></i>    </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/embawood"><i class="fab fa-twitter icon"></i></a>
+                </li>
+                <li>
+                  <a href="https://instagram.com/embawood?igshid=MzRlODBiNWFlZA=="><i class="fa-brands fa-instagram icon"></i></a></li>
+                <li>
+                  <a href="https://www.youtube.com/EmbawoodAzerbaijan"><i class="fa-brands fa-youtube icon"></i></a></li>
+              </ul>
+         </div>
+        </div>
+        <div class="footer2">
+          <div class="product">
+            <div onclick="location.href='./about_us.html'" class="heading">Şirkət</div>
+            <div onclick="location.href='./about_us.html'" class="div">Haqqımızda</div>
+            <div onclick="location.href='./about_us.html'" class="div">Müştəri xidməti</div>
+            <div onclick="location.href='./about_us.html'" class="div">Vakansiyalar</div>
+            <div onclick="location.href='./about_us.html'" class="div">Terminlər</div>
+          </div>
+          <div  class="services">
+            <div onclick="location.href='./about_us.html'" class="heading">Müştərilər üçün informasiya</div>
+            <div onclick="location.href='./about_us.html'" class="div">İstifadəçi razılaşması</div>
+            <div onclick="location.href='./about_us.html'" class="div">Onlayn alış qaydaları</div>
+            <div onclick="location.href='./about_us.html'" class="div">Konfidensiallıq</div>
+            <div onclick="location.href='./about_us.html'" class="div">Onlayn alış qaydalar</div>
+          </div>
+          <div class="Company">
+            <div onclick="location.href='./about_us.html'" class="heading">Keyfiyyət</div>
+            <div onclick="location.href='./about_us.html'" class="div">Keyfiyyət</div>
+            <div onclick="location.href='./about_us.html'" class="div">Karyera</div>
+            <div onclick="location.href='./about_us.html'" class="div">Marketinq</div>
+            <div onclick="location.href='./about_us.html'" class="div">Kömək</div>
+          </div>
+          <div class="Get Help">
+            <div onclick="location.href='./contact_us.html'" class="heading">Əlaqə</div>
+            <div onclick="location.href='./contact_us.html'" class="div">Əlaqə mərkəzi</div>
+            <div onclick="location.href='./contact_us.html'" class="div">Gizlilik sözləşməsi</div>
+            <div onclick="location.href='./contact_us.html'" class="div">Qaydalar</div>
+            <div onclick="location.href='./contact_us.html'" class="div">Giriş et</div>
+          </div>
+        </div>
+        <div class="footer3">
+          Copyright ©
+          <h4 style="color: #78BA03;" >embawood</h4>
+          2023
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="~/MemberPanel/script.js"></script>
+  </body>
+</html>

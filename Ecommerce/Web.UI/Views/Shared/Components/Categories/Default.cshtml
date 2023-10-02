@@ -1,0 +1,16 @@
+﻿@model List<CategoryDto>
+
+
+<section class="categories_section">
+      <div class="categories_container">
+
+        @foreach (var item in Model)
+        {
+            <div class="categories_row">
+               <img src="~/MemberPanel/images/@(item.Name).png" alt="Yataq" />
+               <a asp-action="ProductCategories" asp-controller="Product" asp-area="" asp-route-id="@item.Id">@item.Name</a>
+            </div>
+        }
+ 
+      </div>
+</section>

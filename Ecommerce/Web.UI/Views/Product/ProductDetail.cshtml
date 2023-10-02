@@ -1,0 +1,122 @@
+﻿@model (ProductDto product, ProductCommentCreateDto comment, List<ProductCommentDto> productComments)
+
+<section class="product_details">
+      <div class="product_container">
+        <img src="~/AdminPanel/img/product/@Model.product.Image" alt="" />
+        <div class="product_container_right">
+          <p>@Model.product.Name</p>
+          <div class="product_table">
+            <div class="product_price">
+              <p>@Model.product.Price</p>
+            
+            </div>
+            <div class="product_buttons">
+              <a asp-action="Index" asp-controller="Home">
+              <button>
+                <i class="fa-solid fa-arrow-left"></i>
+                <p>Alış-verişə davam et</p>
+              </button>
+              </a>
+              <a asp-action="BasketAdd" asp-controller="Home" asp-route-id="@Model.product.Id">
+              <button>
+                <i class="fa-solid fa-cart-arrow-down"></i>
+                <p>Səbətə at</p>
+              </button>
+              </a>
+            </div>
+            <div class="cash">
+              <div>
+                <img src="~/MemberPanel/images/birbank-cards.png" alt="" />
+                <p>Birbankla ödəniş</p>
+              </div>
+              <div>
+                <img src="~/MemberPanel/images/cash.png" alt="" />
+                <p>Nağd ödəniş</p>
+              </div>
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="descripcion_container">
+        <h1>Açıqlama</h1>
+        <div class="descripcion_table">
+          <div class="descripcion_row1">
+            <p>Dizayn: <span>@Model.product.Design</span></p>
+            <p>Material: <span>@Model.product.Material</span></p>
+            <p>Rəng: <span>@Model.product.Color.ToString()</span></p>
+          </div>
+          <div class="descripcion_row2">
+            <h1>Mehsul Haqqinda</h1>
+            <div>
+              <p>@Model.product.About</p>              
+            </div>
+          </div>
+          @*<div class="descripcion_row3">
+            <h1>Ölçülər</h1>
+            <div>
+              <p>Asma dolab: En 352 x Hündürlük 1200 x Dərinlik 325</p>
+              <p>Vitrin 2 qapılı: En 938 x Hündürlük 1920 x Dərinlik 446</p>
+              <p>Asma rəf: En 1000 x Hündürlük 220 x Dərinlik 220</p>
+              <p>Güzgü: En 1700 x Hündürlük 596 x Dərinlik 22</p>
+              <p>Komod: En 1800 x Hündürlük 852 x Dərinlik 446</p>
+              <p>Tv altı: En 1700 x Hündürlük 472 x Dərinlik 446</p>
+              <p>Masa: En 1760 x Hündürlük 765 x Dərinlik 900</p>
+            </div>
+          </div>*@
+        </div>
+      </div>
+      <div class="comment_container">
+        <h1>Məhsulu qiymətləndirin</h1>
+        
+         @if (User.Identity.IsAuthenticated)
+        {
+          <div class="comment_table">
+          <div class="comment_left">
+            <h1>Qiymətləndirmələr</h1>
+           
+            @{
+                if(Model.productComments.Count() > 0)
+                {
+                    foreach (var item in Model.productComments.Take(5))
+                     {
+                        <div>
+                         <i class="fa-solid fa-circle-user"></i>
+                         <p>
+                           @item.Description
+                         </p>
+                        </div>
+                     }
+                }
+            }
+           
+          </div>
+          <form asp-action="ProductDetail" asp-controller="Product" method="post">
+          <div class="comment_right">
+            <div>
+              <p>Şərhiniz:</p>
+              <textarea asp-for="@Model.comment.Description" cols="30" rows="10"></textarea>
+            </div>
+            <div class="comment_inputs">
+              <div class="input1">
+                <label for="name">Adınız</label>
+                <input asp-for="@Model.comment.Name" id="name" type="text" />
+              </div>
+              <div class="input2">
+                <label for="email">E-mail ünvanınız</label>
+                <input asp-for="@Model.comment.Email" id="email" type="email" />
+              </div>
+            </div>
+            <button>Davam et</button>
+          </div>
+            </form>
+        </div>
+        }else
+        {
+            <p>
+                Comment yazmaq ucun girin edin.<a asp-action="Login" asp-controller="Account">(Login)</a>
+            </p>
+        }
+      
+      </div>
+    </section>

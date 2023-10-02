@@ -1,0 +1,70 @@
+﻿@model List<Basket>
+@{
+    decimal Total = 0;
+}
+
+
+
+<section class="cart_section">
+      <div class="cart_container">
+          <div class="cart_left">
+              <h1>Səbət</h1>
+              @foreach (var item in Model)
+            {
+                <div class="cart_row">
+                  <div class="cart_title">
+                      <img src="~/AdminPanel/img/product/@item.Image" alt="" />
+                      <p>@item.ProductName</p>
+                  </div>
+                  <div class="count_row">
+                      @*<i id="count_plus" class="fa-solid fa-plus"></i>*@
+                      <p id="count">@item.Count</p>
+                      @*<i id="count_minus" class="fa-solid fa-minus"></i>*@
+                  </div>
+                  <div class="total_price">
+                      <p>@item.Price ₼</p>
+                      <a asp-controller="Home" asp-action="BasketRemove" asp-route-id="@item.Id">
+                          <i class="fa-solid fa-trash"></i>
+                      </a>
+                  </div>
+              </div>
+              Total = Total + item.Price;
+            }
+              @*
+              <div class="cart_row">
+                  <div class="cart_title">
+                      <img src="./images/cart_image.jpg" alt="" />
+                      <p>Miracle yataq dəsti</p>
+                  </div>
+                  <div class="count_row">
+                      <i id="count_plus" class="fa-solid fa-plus"></i>
+                      <p id="count">1</p>
+                      <i id="count_minus" class="fa-solid fa-minus"></i>
+                  </div>
+                  <div class="total_price">
+                      <p>2579.4₼</p>
+                      <i class="fa-solid fa-trash"></i>
+                  </div>
+              </div>*@
+          </div>
+        <div class="cart_right">
+         <a asp-action="Index" asp-controller="Home">
+              <button>
+            <i class="fa-solid fa-arrow-left"></i>
+            <p>Alış-verişə davam</p>
+          </button>
+         </a>
+          <div>
+            <div>
+              <p>Səbətin ümumi dəyəri:</p>
+              <span>@Total ₼</span>
+            </div>
+            <div>
+              <p>Çatdırılma:</p>
+              <span>Pulsuz</span>
+            </div>
+          </div>
+          <button>Sifarişi rəsmiləşdir</button>
+        </div>
+      </div>
+    </section>

@@ -1,0 +1,37 @@
+﻿@model List<Favorite>
+
+<section class="section">
+    <div class="bashlig">
+    <h2>Favorite</h2>
+</div>
+    <div class="section2">
+        <div class="container">
+          @{
+             foreach (var item in Model)
+                {
+                     <div class="items">
+          
+            <img id="yeniphoto" src="~/MemberPanel/images/Yeni.png" alt="">
+            <img id="mainphoto"
+              src="~/AdminPanel/img/product/@item.Image"
+              alt=""
+            />
+            <div class="items_bottom">
+              <div class="items_title">
+              <h5>@item.ProductName</h5>
+                <p>@item.Price AZN</p>
+              </div>
+              <div class="items_icons">
+                <a asp-action="FavoriteRemove" asp-controller="Home" asp-route-id="@item.Id">Sil</a>
+              </div>
+            </div>
+          </div>
+                }
+          }
+          
+        </div>
+      </div>
+      
+    </section>
+
+          

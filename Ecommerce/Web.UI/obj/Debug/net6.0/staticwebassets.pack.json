@@ -1,0 +1,561 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\Account\\Templates\\Confirm.html",
+      "PackagePath": "staticwebassets\\Account\\Templates\\Confirm.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\Account\\Templates\\Reset.html",
+      "PackagePath": "staticwebassets\\Account\\Templates\\Reset.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\PSD\\Purple_free dashboard.psd",
+      "PackagePath": "staticwebassets\\AdminPanel\\PSD\\Purple_free dashboard.psd"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\css\\maps\\style.css.map",
+      "PackagePath": "staticwebassets\\AdminPanel\\css\\maps\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\css\\style.css",
+      "PackagePath": "staticwebassets\\AdminPanel\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\fonts\\PT_Sans\\OFL.txt",
+      "PackagePath": "staticwebassets\\AdminPanel\\fonts\\PT_Sans\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\fonts\\PT_Sans\\PTSans-Bold.eot",
+      "PackagePath": "staticwebassets\\AdminPanel\\fonts\\PT_Sans\\PTSans-Bold.eot"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\fonts\\PT_Sans\\PTSans-Bold.ttf",
+      "PackagePath": "staticwebassets\\AdminPanel\\fonts\\PT_Sans\\PTSans-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\fonts\\PT_Sans\\PTSans-Bold.woff",
+      "PackagePath": "staticwebassets\\AdminPanel\\fonts\\PT_Sans\\PTSans-Bold.woff"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\fonts\\PT_Sans\\PTSans-Bold.woff2",
+      "PackagePath": "staticwebassets\\AdminPanel\\fonts\\PT_Sans\\PTSans-Bold.woff2"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\fonts\\PT_Sans\\PTSans-Regular.eot",
+      "PackagePath": "staticwebassets\\AdminPanel\\fonts\\PT_Sans\\PTSans-Regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\fonts\\PT_Sans\\PTSans-Regular.ttf",
+      "PackagePath": "staticwebassets\\AdminPanel\\fonts\\PT_Sans\\PTSans-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\fonts\\PT_Sans\\PTSans-Regular.woff",
+      "PackagePath": "staticwebassets\\AdminPanel\\fonts\\PT_Sans\\PTSans-Regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\fonts\\PT_Sans\\PTSans-Regular.woff2",
+      "PackagePath": "staticwebassets\\AdminPanel\\fonts\\PT_Sans\\PTSans-Regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\dashboard\\img_1.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\dashboard\\img_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\dashboard\\img_2.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\dashboard\\img_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\dashboard\\img_3.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\dashboard\\img_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\dashboard\\img_4.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\dashboard\\img_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces-clipart\\pic-1.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces-clipart\\pic-1.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces-clipart\\pic-2.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces-clipart\\pic-2.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces-clipart\\pic-3.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces-clipart\\pic-3.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces-clipart\\pic-4.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces-clipart\\pic-4.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face1.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face10.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face11.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face12.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face13.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face14.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face15.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face16.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face17.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face18.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face19.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face2.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face20.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face21.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face22.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face23.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face24.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face25.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face26.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face27.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face3.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face4.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face5.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face6.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face7.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face8.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\faces\\face9.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\faces\\face9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\logo-mini.svg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\logo-mini.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\logo.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\samples\\Login_bg.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\samples\\Login_bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\samples\\Login_bg2.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\samples\\Login_bg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\images\\samples\\lockscreen-bg.jpg",
+      "PackagePath": "staticwebassets\\AdminPanel\\images\\samples\\lockscreen-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\18a09c34-06f3-45ff-bfc5-f68f5f1f0067_metbex.jfif",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\18a09c34-06f3-45ff-bfc5-f68f5f1f0067_metbex.jfif"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\263fa372-01ce-41d4-9f8e-ef4eae5b6712_metbex.jfif",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\263fa372-01ce-41d4-9f8e-ef4eae5b6712_metbex.jfif"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\29077cd7-75c5-44fd-8910-926993acb426_Screenshot (17).png",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\29077cd7-75c5-44fd-8910-926993acb426_Screenshot (17).png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\3af66da7-3b4d-4452-98fa-f439b5a2ea45_qonaq1.jfif",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\3af66da7-3b4d-4452-98fa-f439b5a2ea45_qonaq1.jfif"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\47253293-84af-40e3-9b18-9d015439b7a9_Screenshot (11).png",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\47253293-84af-40e3-9b18-9d015439b7a9_Screenshot (11).png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\4dfc9172-6e6c-469c-bf40-21b45094ee85_Screenshot (12).png",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\4dfc9172-6e6c-469c-bf40-21b45094ee85_Screenshot (12).png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\53544be3-5d3c-4d96-a399-ae4242974969_Screenshot (11).png",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\53544be3-5d3c-4d96-a399-ae4242974969_Screenshot (11).png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\583688bb-2173-440e-8de1-65c622b67e54_yataq2.jfif",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\583688bb-2173-440e-8de1-65c622b67e54_yataq2.jfif"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\6ab6b929-b1a6-4a7f-a616-7134b82f9814_metbex.jfif",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\6ab6b929-b1a6-4a7f-a616-7134b82f9814_metbex.jfif"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\6d144d29-8adb-409b-8c38-fc0ff30cc42e_yataq2.jfif",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\6d144d29-8adb-409b-8c38-fc0ff30cc42e_yataq2.jfif"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\6e22d79b-9148-495f-82cf-e78dd29c33c5_yataq2.jfif",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\6e22d79b-9148-495f-82cf-e78dd29c33c5_yataq2.jfif"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\6ebedc29-8ced-4e03-b6ad-dece57ed0290_Screenshot (15).png",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\6ebedc29-8ced-4e03-b6ad-dece57ed0290_Screenshot (15).png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\77f6e4d9-529a-4a86-a94b-f3ca97ea864b_yataq3.jfif",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\77f6e4d9-529a-4a86-a94b-f3ca97ea864b_yataq3.jfif"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\881c5b75-ecbe-4dd8-a192-1abe4d38071e_Screenshot (16).png",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\881c5b75-ecbe-4dd8-a192-1abe4d38071e_Screenshot (16).png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\9b4cafdc-1821-4d1d-9d6b-88e0196035c5_qonaq2.jfif",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\9b4cafdc-1821-4d1d-9d6b-88e0196035c5_qonaq2.jfif"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\a0d631cc-eeeb-4d34-ab7c-57b44e1c60cd_yataq2.jfif",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\a0d631cc-eeeb-4d34-ab7c-57b44e1c60cd_yataq2.jfif"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\a1e3a32b-a6d5-44df-ae63-f15b7b3f968a_Screenshot (15).png",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\a1e3a32b-a6d5-44df-ae63-f15b7b3f968a_Screenshot (15).png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\a4ad2240-bd9c-4708-8d66-1c9238233fc3_Screenshot (15).png",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\a4ad2240-bd9c-4708-8d66-1c9238233fc3_Screenshot (15).png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\af4bb970-fa59-473a-a718-f5dafac97fb1_qonaq2.jfif",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\af4bb970-fa59-473a-a718-f5dafac97fb1_qonaq2.jfif"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\b916cd44-62b9-42c5-a2b9-f01a3d00a299_metbex.jfif",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\b916cd44-62b9-42c5-a2b9-f01a3d00a299_metbex.jfif"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\c5bc9969-8ff8-4277-a701-d2696e9bdfbd_Screenshot (15).png",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\c5bc9969-8ff8-4277-a701-d2696e9bdfbd_Screenshot (15).png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\img\\product\\db8e2ab4-1a27-40bd-b7b9-e76e4a2de820_Screenshot (11).png",
+      "PackagePath": "staticwebassets\\AdminPanel\\img\\product\\db8e2ab4-1a27-40bd-b7b9-e76e4a2de820_Screenshot (11).png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\js\\chart.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\js\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\js\\dashboard.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\js\\dashboard.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\js\\misc.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\js\\misc.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\js\\off-canvas.js",
+      "PackagePath": "staticwebassets\\AdminPanel\\js\\off-canvas.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\partials\\_footer.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\partials\\_footer.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\partials\\_navbar.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\partials\\_navbar.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\partials\\_sidebar.html",
+      "PackagePath": "staticwebassets\\AdminPanel\\partials\\_sidebar.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\_auth.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_auth.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\_background.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\_demo.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_demo.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\_fonts.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_fonts.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\_footer.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\_layouts.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_layouts.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\_misc.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\_navbar.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_navbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\_reset.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_reset.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\_typography.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\_utilities.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_utilities.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\components\\_badges.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\components\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\components\\_banners.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\components\\_banners.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\components\\_bootstrap-progress.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\components\\_bootstrap-progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\components\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\components\\_cards.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\components\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\components\\_checkbox-radio.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\components\\_checkbox-radio.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\components\\_forms.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\components\\_forms.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\components\\_icons.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\components\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\components\\_lists.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\components\\_lists.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\components\\_preview.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\components\\_preview.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\components\\_tables.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\components\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\mixins\\_animation.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\mixins\\_animation.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\mixins\\_badges.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\mixins\\_badges.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\mixins\\_blockqoute.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\mixins\\_blockqoute.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\mixins\\_cards.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\mixins\\_cards.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\mixins\\_misc.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\mixins\\_misc.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\AdminPanel\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\AdminPanel\\scss\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\MemberPanel\\.DS_Store",
+      "PackagePath": "staticwebassets\\MemberPanel\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\MemberPanel\\.vscode\\settings.json",
+      "PackagePath": "staticwebassets\\MemberPanel\\.vscode\\settings.json"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\MemberPanel\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\MemberPanel\\images\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\MemberPanel\\images\\Döşəklər.png",
+      "PackagePath": "staticwebassets\\MemberPanel\\images\\Döşəklər.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\MemberPanel\\images\\Dəhliz.png",
+      "PackagePath": "staticwebassets\\MemberPanel\\images\\Dəhliz.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\MemberPanel\\images\\Masa və stullar.png",
+      "PackagePath": "staticwebassets\\MemberPanel\\images\\Masa və stullar.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\MemberPanel\\images\\Mətbəx.png",
+      "PackagePath": "staticwebassets\\MemberPanel\\images\\Mətbəx.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\MemberPanel\\images\\Qonaq.png",
+      "PackagePath": "staticwebassets\\MemberPanel\\images\\Qonaq.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\MemberPanel\\images\\Uşaq və gənc.png",
+      "PackagePath": "staticwebassets\\MemberPanel\\images\\Uşaq və gənc.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\MemberPanel\\images\\Yataq.png",
+      "PackagePath": "staticwebassets\\MemberPanel\\images\\Yataq.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\MemberPanel\\images\\Yeni.png",
+      "PackagePath": "staticwebassets\\MemberPanel\\images\\Yeni.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\MemberPanel\\images\\Yumşaq.png",
+      "PackagePath": "staticwebassets\\MemberPanel\\images\\Yumşaq.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\MemberPanel\\images\\birbank-cards.png",
+      "PackagePath": "staticwebassets\\MemberPanel\\images\\birbank-cards.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\MemberPanel\\images\\cart_image.jpg",
+      "PackagePath": "staticwebassets\\MemberPanel\\images\\cart_image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\MemberPanel\\images\\cash.png",
+      "PackagePath": "staticwebassets\\MemberPanel\\images\\cash.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\MemberPanel\\images\\embawood_logo.png",
+      "PackagePath": "staticwebassets\\MemberPanel\\images\\embawood_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\MemberPanel\\images\\product_image.jpg",
+      "PackagePath": "staticwebassets\\MemberPanel\\images\\product_image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\av\\Embawood6.0\\Ecommerce\\Web.UI\\wwwroot\\MemberPanel\\style.css",
+      "PackagePath": "staticwebassets\\MemberPanel\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Web.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Web.UI.props",
+      "PackagePath": "build\\Web.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Web.UI.props",
+      "PackagePath": "buildMultiTargeting\\Web.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Web.UI.props",
+      "PackagePath": "buildTransitive\\Web.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

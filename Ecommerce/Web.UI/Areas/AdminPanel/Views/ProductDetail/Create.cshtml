@@ -1,0 +1,98 @@
+﻿@model (List<ProductDto> prodetalist, ProductDetailCreateDto dto, List<ProductDto> products)
+
+@{ 
+    int count = 1;
+}
+@* Product Details *@
+<div class="row">
+    <div class="col-md-5 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body d-flex flex-column">
+                <h4 class="card-title">Mehsul Detali Elave Etmek</h4>
+                <form asp-action="Create" asp-controller="ProductDetail" asp-area="AdminPanel" class="forms-sample" method="post">
+                    <div class="form-group row">
+                        <label asp-for="dto.ProductId" class="col-sm-3 col-form-label">Mehsul :</label>
+                        <div class="col-sm-9">
+                            <select asp-for="dto.ProductId" asp-items="@(new SelectList(Model.prodetalist,"Id","Name"))" class="form-control">
+                            </select>
+                            <span class="text-danger" asp-validation-for="dto.ProductId"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label asp-for="dto.Color" class="col-sm-3 col-form-label">Reng :</label>
+                        <div class="col-sm-9">
+                            <select asp-for="dto.Color" asp-items="Html.GetEnumSelectList<Colors>()" class="form-control">
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label asp-for="dto.Material" class="col-sm-3 col-form-label">Material :</label>
+                        <div class="col-sm-9">
+                            <input asp-for="dto.Material" type="text" class="form-control" id="exampleInputEmail2">
+                            <span class="text-danger" asp-validation-for="dto.Material"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label asp-for="dto.Material" class="col-sm-3 col-form-label">Dizayn :</label>
+                        <div class="col-sm-9">
+                            <input asp-for="dto.Design" type="text" class="form-control" id="exampleInputEmail2">
+                            <span class="text-danger" asp-validation-for="dto.Design"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label asp-for="dto.About" class="col-sm-3 col-form-label">Haqqinda :</label>
+                        <div class="col-sm-9">
+                            <textarea asp-for="dto.About" type="text" class="form-control" id="exampleInputEmail2">
+                            </textarea>
+                            <span class="text-danger" asp-validation-for="dto.About"></span>
+                        </div>
+                    </div>
+                   
+                    <button type="submit" class="btn btn-success mr-2">Submit</button>
+                    <a asp-action="List" asp-controller="Product" asp-area="AdminPanel" class="btn btn-light">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-7 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Mehsul Detallari</h4>
+                <div class="mt-auto">
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Mehsul</th>
+                                    <th>Dizayn</th>
+                                    <th>Reng</th>
+                                    <th>Material</th>
+                                    <th>EDIT</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.products.Take(5))
+                                {
+                                    <tr>
+                                        <td>@count</td>
+                                        <td>@item.Name</td>
+                                        <td>@(item.Design == null? "---" : item.Design)</td>
+                                        <td>@item.Color.ToString()</td>
+                                        <td>@(item.Material == null? "---" : item.Material)</td>
+                                        <td>
+                                            <a asp-action="Update" asp-controller="ProductDetails" asp-area="AdminPanel" asp-route-id="@item.Id"><i class="bi bi-pencil-square"></i></a>
+                                            <a asp-action="Delete" asp-controller="ProductDetails" asp-area="AdminPanel" asp-route-id="@item.Id"><i class="bi bi-x-square"></i></a>
+                                        </td>
+                                    </tr>
+                                    count++;
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

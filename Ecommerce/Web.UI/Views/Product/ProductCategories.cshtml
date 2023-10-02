@@ -1,0 +1,60 @@
+﻿@model List<ProductDto> 
+
+
+
+@if (Model.Count() > 0)
+{
+    <section class="section">
+    <div class="bashlig">
+    @foreach (var item in Model)
+     {
+         <h2>@item.CategoryName</h2>
+         break;
+     }
+</div>
+    <div class="section2">
+        <div class="container">
+          @{
+              foreach (var item in Model)
+                {
+                   
+                    <div class="items">
+           <a asp-action="ProductDetail" asp-controller="Product" asp-route-id="@item.Id">
+            <img id="yeniphoto" src="~/MemberPanel/images/Yeni.png" alt="">
+            <img id="mainphoto"
+              src="~/AdminPanel/img/product/@item.Image"
+              alt=""
+            />
+           </a>
+            <div class="items_bottom">
+              <div class="items_title">
+              <a asp-action="ProductDetail" asp-controller="Product" asp-route-id="@item.Id">
+              <h5>@item.Name</h5>
+              </a>
+                <p>@item.Price AZN</p>
+              </div>
+              <div class="items_icons">
+                <a asp-action="BasketAdd" asp-controller="Home" asp-route-id="@item.Id">
+                          <i class="fa-solid fa-cart-plus"></i>
+                          </a>
+                          <a asp-action="Favorite" asp-controller="Home" asp-route-id="@item.Id">
+                          <i class="fa-solid fa-heart"></i>
+                          </a>
+              </div>
+            </div>
+          </div>
+                }
+          }
+          
+        </div>
+      </div>
+      
+    </section>
+}else
+{
+        <p>
+            Bu categoryde Mehsul yoxdu..
+        </p>
+}
+
+          

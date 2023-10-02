@@ -1,0 +1,70 @@
+﻿@model Paginate<ProductDto> 
+
+<section class="section">
+    <div class="bashlig">
+    <h2>Məhsullar</h2>
+</div>
+    <div class="section2">
+        <div class="container">
+          @{
+              foreach (var item in Model.Datas)
+                {
+                   
+                    <div class="items">
+           <a asp-action="ProductDetail" asp-controller="Product" asp-route-id="@item.Id">
+            <img id="yeniphoto" src="~/MemberPanel/images/Yeni.png" alt="">
+            <img id="mainphoto"
+              src="~/AdminPanel/img/product/@item.Image"
+              alt=""
+            />
+           </a>
+            <div class="items_bottom">
+              <div class="items_title">
+              <a asp-action="ProductDetail" asp-controller="Product" asp-route-id="@item.Id">
+              <h5>@item.Name</h5>
+              </a>
+                <p>@item.Price AZN</p>
+              </div>
+              <div class="items_icons">
+                <a asp-action="BasketAdd" asp-controller="Home" asp-route-id="@item.Id">
+                <i class="fa-solid fa-cart-plus"></i>
+                </a>
+                <a asp-action="Favorite" asp-controller="Home" asp-route-id="@item.Id">
+                <i class="fa-solid fa-heart"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+                }
+          }
+          
+          <div class="row my-3 justify-content-center">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination ">
+                                <li class="page-item @(Model.HasPrevious ? "": "disabled")">
+                                    <a class="page-link" style="color:black;" asp-action="AllList" asp-area=""
+                                       asp-route-sort="@((string)TempData["sort"] != null? (string)TempData["sort"] : "")"
+                                       asp-route-page="@(Model.CurrentPage-1)">Evvelki</a>
+                                </li>
+                                @for (int i = 1; i <= Model.TotalPage; i++)
+                                {
+                                    <li class="page-item @(i == Model.CurrentPage ? "disabled" : "")">
+                                        <a class="page-link" asp-action="AllList" asp-area=""
+                                           asp-route-sort="@((string)TempData["sort"] != null? (string)TempData["sort"] : "")" 
+                                           asp-route-page="@i">@i</a>
+                                    </li>
+                                }
+                                <li class="page-item @(Model.HasNext ? "": "disabled")">
+                                    <a class="page-link" style="color:black;" asp-action="AllList" asp-area=""
+                                       asp-route-sort="@((string)TempData["sort"] != null? (string)TempData["sort"] : "")"
+                                       asp-route-page="@(Model.CurrentPage+1)">Sonraki</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+        </div>
+      </div>
+      
+    </section>
+
+          
